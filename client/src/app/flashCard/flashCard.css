@@ -1,0 +1,66 @@
+.flashcard__bg{
+    padding: 40px 0px;
+    background-color: #aee1f9;
+    background-image: linear-gradient(315deg, #aee1f9, #f6ebe6 74%);
+}
+
+.flashcard__header{
+    font-size: 2rem;
+}
+
+.flashcard__icon{
+    margin-right: 16px;
+}
+
+.flashcard__tag{
+    display: inline-block;
+    margin-top: 40px;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: var(--tag-text-color);
+    font-weight: 500;
+    background-color: var(--tag-search-bg-color);
+}
+
+.flashcard__alert{
+    padding: 16px;
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: var(--alert-flashcard-color);
+    margin: 20px 0px;
+    color: var(--alert-text-color);
+}
+
+.alert__link{
+    text-decoration: none;
+    color: var(--tag-text-color);
+}
+
+.alert__link:hover{
+    color: black;
+    transition: 0.2s;
+}
+
+.flashcard__container{
+    margin: 20px 0px;
+}
+
+.flashcard__box-title{
+    font-size: 1rem;
+}
+
+.flashcard__create-by{
+    display: flex;
+    align-items: center;
+}
+
+.flashcard__img{
+    border-radius: 100%;
+}
+
+.flashcard__name{
+    margin-left: 10px;
+    font-size: 0.8rem;
+}

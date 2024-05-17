@@ -1,0 +1,174 @@
+.content__header{
+    margin-top: 100px;
+    padding: 0px 16px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.tag-search__container{
+    margin-top: 30px;
+    padding: 6px;
+}
+
+.tag-search__list{
+    max-width: 790px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag-search__item{
+    margin: 16px 8px;
+}
+
+.tag-search__link--chosen{
+    color: var(--nav-hover-text-color) !important;
+    background-color: var(--tag-search-bg-color);
+    font-weight: 500;
+}
+
+.tag-search__link{
+    padding: 8px 16px;
+    border-radius: 30px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.tag-search__link:hover{
+    background-color: var(--tag-search-text-color);
+}
+
+.tag-search__input-container{
+    position: relative;
+}
+
+.tag-search__input{
+    width: 790px;
+    margin-top: 20px;
+    margin-left: 16px;
+    padding: 10px 16px;
+    border: 1px solid var(--input-color);
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.tag-search__input:focus{
+    transition: 0.2s;
+    background-color: #fff;
+    border: 1px solid var(--input-focus-color);
+    box-shadow: 0 0 0 .2rem rgba(53, 80, 154, .25);
+    outline: 0;
+}
+
+.tag-search__input-icon{
+    position: absolute;
+    top: 53%;
+    right: 35%;
+    font-size: 1rem;
+}
+
+.tag-search__btn{
+    max-width: 100px;
+    display: block;
+    margin: 20px 0px 20px 16px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 16px;
+    border-radius: 10px;
+    background-color: var(--nav-hover-text-color);
+    text-decoration: none;
+}
+
+.tag-search__btn:hover{
+    background-color: var(--login-hover-box-color);
+    transition: 0.2s;
+}
+
+.tag-search__transition{
+    margin-left: 10px;
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: transparent;
+    max-width: 100%;
+    position: relative;
+}
+
+.tag-search__transition-item{
+    display: flex;
+    white-space: nowrap;
+}
+
+.tag-search__transition-link{
+    text-decoration: none;
+    color: var(--tag-search-transition-color);
+    font-size: 1.2rem;
+    padding: 16px;
+    border-bottom: 2px solid transparent;
+}
+
+.tag-search__transition-link--chosen{
+    color: var(--nav-hover-text-color);
+    border-bottom-color: var(--nav-hover-text-color);
+}
+
+.tag-search__transition-link:hover{
+    transition: 0.2s;
+    color: var(--nav-hover-text-color);
+    border-bottom-color: var(--nav-hover-text-color);
+}
+
+.content__item-container{
+    margin-top: 20px;
+    background-color: white !important;
+}
+
+.content__link{
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.pagination{
+    margin-top: 20px;
+}
+
+.pagination__list{
+    display: flex;
+    list-style: none;
+}
+
+.pagination__item{
+    display: flex;
+}
+
+.pagination__link{
+    border-radius: 3px;
+    text-decoration: none;
+    color: var(--nav-hover-text-color);
+    padding: 8px 10px;
+    font-size: 1rem;
+    border: 1px solid var(--tag-search-text-color);
+}
+
+.pagination__link:hover{
+    transition: 0.2s;
+    background-color: var(--pagination-bg-color-hover);
+}
+
+.pagination__link--chosen{
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+    background-color: var(--nav-hover-text-color);
+    padding: 8px 10px;
+    font-size: 1rem;
+    border: 1px solid var(--tag-search-text-color);
+}
+
+.examOnline-slider{
+    margin: 50px 0px;
+}

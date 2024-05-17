@@ -1,0 +1,64 @@
+:root{
+    --nav-text-color: #71869d;
+    --nav-hover-text-color: #35509a;
+    --login-hover-box-color: #2b417e;
+    --copyright-text-color: #677788;
+    --swiper-color: #007aff;
+    --star-color: #ffad3b;
+    --tag-text-color: #35509a;
+    --tag-bg-color: #f0f8ff;
+    --price-color: #3cb46e;
+    --course-border-color: #e0e0e0;
+    --exam-text-color: #677788;
+    --group-details-text-color: #1a1a1a;
+    --input-color:#bdc5d1;
+    --input-focus-color: #7c93d2;
+    --tag-search-text-color: #e7eaf3;
+    --tag-search-bg-color: #e8f2ff;
+    --tag-search-transition-color: #8c98a4;
+    --exam-bg-color:#f8f9fa;
+    --pagination-bg-color-hover: #f8fafd;
+    --fb-text-color:#3b5998;
+    --gg-text-color:#db4a39;
+    --user-public-text-bg-color: #d1e2ff;
+    --process-active-bg-color: 	#32CD32;
+    --alert-text-color: #1f5e39;
+    --alert-flashcard-color: #d8f0e2;
+    --economy-price-text-color: #e43a45;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.have--bg-color{
+    background-color: var(--exam-bg-color);
+}
+
+.mgl-10px{
+    margin-left: 10px;
+}
+
+.flex__container{
+    display: flex;
+    align-items: center;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 62.5%;
+}
+.content{
+    padding-top: 60px;
+}

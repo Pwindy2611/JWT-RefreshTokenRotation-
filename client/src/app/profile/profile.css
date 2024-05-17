@@ -1,0 +1,137 @@
+
+.img__container{
+    margin: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar__container{
+    border-radius: 10px;
+    width: 800px;
+    position: relative;
+}
+
+.backgroud__avt{
+    border-radius: 20px;
+}
+
+.avt__user{
+    position: absolute;
+    top: 42%;
+    right: 42%;
+    border-radius: 100%;
+}
+
+.avatar__icon{
+    position: absolute;
+    top: 102%;
+    right: 42%;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: white;
+    font-size: 1rem;
+    color: black;
+}
+
+.user__name-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name__user{
+    margin-top: 16px;
+    font-size: 2rem;
+}
+
+.user__public{
+    margin: 16px 4px 0px 4px;
+    font-size: 1rem;
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.user__public:hover{
+    background-color: var(--user-public-text-bg-color);
+    transition: 0.3s;
+}
+
+.course__registed-container{
+    margin: 30px 0px;
+}
+
+.course__registed--dont-have-course{
+    margin-top: 30px;
+    font-size: 1rem;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+.course__registed-header{
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+}
+
+.course__active-container{
+    justify-content: center;
+    align-items: center;
+}
+
+.couse__active-link{
+    text-decoration: none;
+    color: black;
+}
+
+.couse__active-link:hover{
+    transform: translateY(-2px);
+    transition: 0.4s;
+}
+
+.course__active-box{
+    padding: 8px;
+    background-color:#E5E4E2;
+    border-radius: 10px;
+    box-shadow: 0 4px 0 0 rgba(0, 0, 0, .2);
+    margin-bottom: 20px;
+}
+
+.course__active-title{
+    font-size: 1rem;
+}
+
+.course__active-state{
+    display: inline-block;
+    font-size: 0.8rem;
+    padding: 4px;
+    border-radius: 6px;
+    color: white;
+    background-color: var(--process-active-bg-color);
+    margin: 10px 0px;
+    
+}
+
+.course__active-percent{
+    font-size: 0.8rem;
+}
+
+.course__active-progress{
+    padding: 6px 0px;
+    border-radius: 10px;
+    width: 20%;
+    background-color: var(--process-active-bg-color);
+    margin-bottom: 20px;
+}
+
+.course__active-continue{
+    font-size: 0.9rem;
+}
+
+.course__active-continue-title{
+    font-weight: 600;
+    font-size: 1rem;
+}
